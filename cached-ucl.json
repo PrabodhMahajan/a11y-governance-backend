@@ -1,0 +1,28 @@
+{
+  "url": "https://www.ucl.ac.uk",
+  "timestamp": "2026-08-22T13:58:47.236Z",
+  "violations": [
+    {
+      "id": "aria-allowed-attr",
+      "impact": "critical",
+      "description": "Ensure an element's role supports its ARIA attributes",
+      "wcagLevel": "A",
+      "count": 2,
+      "category": "first-order"
+    },
+    {
+      "id": "aria-prohibited-attr",
+      "impact": "serious",
+      "description": "Ensure ARIA attributes are not prohibited for an element's role",
+      "wcagLevel": "A",
+      "count": 2,
+      "category": "first-order"
+    }
+  ],
+  "summary": {
+    "totalViolations": 4,
+    "totalRules": 2,
+    "levelAViolations": 4,
+    "levelAAViolations": 0
+  }
+}

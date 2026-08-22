@@ -1,0 +1,44 @@
+{
+  "url": "https://india.gov.in",
+  "timestamp": "2026-08-22T14:00:23.460Z",
+  "violations": [
+    {
+      "id": "aria-hidden-focus",
+      "impact": "serious",
+      "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+      "wcagLevel": "A",
+      "count": 15,
+      "category": "first-order"
+    },
+    {
+      "id": "aria-required-parent",
+      "impact": "critical",
+      "description": "Ensure elements with an ARIA role that require parent roles are contained by them",
+      "wcagLevel": "A",
+      "count": 7,
+      "category": "first-order"
+    },
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "wcagLevel": "AA",
+      "count": 6,
+      "category": "first-order"
+    },
+    {
+      "id": "listitem",
+      "impact": "serious",
+      "description": "Ensure <li> elements are used semantically",
+      "wcagLevel": "A",
+      "count": 60,
+      "category": "first-order"
+    }
+  ],
+  "summary": {
+    "totalViolations": 88,
+    "totalRules": 4,
+    "levelAViolations": 82,
+    "levelAAViolations": 6
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "url": "https://depwd.gov.in",
+  "timestamp": "2026-08-22T13:47:02.919Z",
+  "violations": [
+    {
+      "id": "aria-progressbar-name",
+      "impact": "serious",
+      "description": "Ensure every ARIA progressbar node has an accessible name",
+      "wcagLevel": "A",
+      "count": 1,
+      "category": "first-order"
+    },
+    {
+      "id": "aria-prohibited-attr",
+      "impact": "serious",
+      "description": "Ensure ARIA attributes are not prohibited for an element's role",
+      "wcagLevel": "A",
+      "count": 6,
+      "category": "first-order"
+    },
+    {
+      "id": "aria-required-children",
+      "impact": "critical",
+      "description": "Ensure elements with an ARIA role that require child roles contain them",
+      "wcagLevel": "A",
+      "count": 1,
+      "category": "first-order"
+    },
+    {
+      "id": "link-name",
+      "impact": "serious",
+      "description": "Ensure links have discernible text",
+      "wcagLevel": "A",
+      "count": 11,
+      "category": "first-order"
+    }
+  ],
+  "summary": {
+    "totalViolations": 19,
+    "totalRules": 4,
+    "levelAViolations": 19,
+    "levelAAViolations": 0
+  }
+}
