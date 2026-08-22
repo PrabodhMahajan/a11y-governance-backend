@@ -7,3 +7,4 @@ RUN npx playwright install chromium --with-deps
 COPY . .
 EXPOSE 3001
 CMD ["npm", "start"]
+# Force rebuild Sat Aug 22 15:55:32 BST 2026
